@@ -5,14 +5,14 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
 
-spring:
-    datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/microservices-tutorial
-    username: root
-    password: system123
+# spring:
+#     datasource:
+#     driver-class-name: com.mysql.cj.jdbc.Driver
+#     url: jdbc:mysql://localhost:3306/microservices-tutorial
+#     username: root
+#     password: system123
 
-  jpa:
-    show-sql: true
-    hibernate:
-      ddl-auto: update
+#   jpa:
+#     show-sql: true
+#     hibernate:
+#       ddl-auto: update
